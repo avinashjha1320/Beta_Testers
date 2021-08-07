@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Beta Testers | Register</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Beta Testers" name="keywords">
+    <meta content="Beta Testers" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- CSS Libraries -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/register.css">
+
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="51">
+    <!-- Nav Bar Start -->
+    <section>
+        <div class="navbar navbar-expand-lg bg-light navbar-light">
+            <div class="container-fluid">
+                <a href="index.html" class="navbar-brand"><img class="myicon" src="./img/myicon.png" alt="Beta Testers"></a>
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon "></span>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                    <div class="navbar-nav ml-auto">
+                        <a href="index.html" class="nav-item nav-link">Home</a>
+                        <a href="team.html" class="nav-item nav-link">Team</a>
+                        <a href="gallery.html" class="nav-item nav-link">Exhibition</a>
+                        <a href="register.html" class="nav-item nav-link active"><b>Register</b></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Form Start -->
+    <section>
+        <div class="hero">
+            <div class="container-fluid">
+                <div class="row align-items-center">
+
+                    <iframe id="slideshow" width="560" height="315" src="https://www.youtube.com/embed/wbo97EXdcO8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen
+                        autoplay></iframe>
+                    <!-- *********** -->
+
+                    <!-- ************ -->
+                    <div class="form-start">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <form role="form" class="register-form form">
+                                        <!--<div class="alert">Information Sent</div>-->
+                                        <div class="control-group">
+                                            <input style=" width: 100%;" type="text" class="form-control name01" id="name01" placeholder="Your Name" required="required" data-validation-required-message="Please enter your Name" />
+                                            <p class="help-block"></p>
+                                        </div>
+                                        <div class="control-group">
+                                            <input style=" width: 100%;" type="text" class="form-control num01" id="num01" placeholder="Your Number" required="required" data-validation-required-message="Please enter your Number" />
+                                            <p class="help-block"></p>
+                                        </div>
+                                        <div class="control-group">
+                                            <input style=" width: 100%;" type="email" class="form-control email01" id="email" placeholder="Your Email" required="required" data-validation-required-message="Please enter your email" />
+                                            <p class="help-block"></p>
+                                        </div>
+                                        <div class="control-group">
+                                            <input style=" width: 100%;" type="text" class="form-control clg01" id="clg01" placeholder="Your College" required="required" data-validation-required-message="Please enter your College Name" />
+                                            <p class="help-block"></p>
+                                        </div>
+                                        <div class="control-group">
+                                            <input style=" width: 100%;" type="text" class="form-control ct01" id="ct01" placeholder="Your City" required="required" data-validation-required-message="Please enter your City" />
+                                            <p class="help-block"></p>
+                                        </div>
+                                        <div class="control-group">
+                                            <input style=" width: 100%;" type="text" class="form-control cnt01" id="cnt01" placeholder="Your Country" required="required" data-validation-required-message="Please enter your Country" />
+                                            <p class="help-block"></p>
+                                        </div>
+                                        <div class="control-group check">
+                                            <p>Select Internship:</p>
+                                            <input type="checkbox" class="c1 che" id="c1" name="Web Development" value="Web Development">Web Development <br>
+                                            <input type="checkbox" class=" c2 che" id="c2" name="App Development" value="App Development">App Development
+                                            <br>
+                                            <input type="checkbox" class=" c3 che" id="c3" name="Startup & Entrepreneurship" value="Startup & Entrepreneurship">Startup & Entrepreneurship
+                                            <br>
+                                            <input type="checkbox" class=" c4 che" id="c4" name="Marketing" value="Marketing">Marketing<br>
+
+                                            <input type="checkbox" class=" c5 che" id="c5" name="Stock Market" value="Stock Market">Stock Market
+                                            <br>
+                                            <input type="checkbox" class=" c6 che" id="c6" name="Solidworks" value="Solidworks">Solidworks<br>
+                                            <input type="checkbox" class=" c7 che" id="c7" name="Matlab(Simulation)" value="Matlab(Simulation)">Matlab(Simulation)
+                                            <br>
+                                            <input type="checkbox" class=" c8 che" id="c8" name="AUTOCAD" value="AUTOCAD">AUTOCAD<br>
+                                            <input type="checkbox" class=" c9 che" id="c9" name="Data Structure & Algorithm" value="Data Structure & Algorithm">Data Structure & Algorithm
+                                            <br>
+                                            <input type="checkbox" class=" c10 che" id="c10" name="C++ STL" value="C++ STL">C++ STL<br>
+                                            <input type="checkbox" class=" c11 che" id="c11" name="Global Business" value="Global Business">Global Business <br>
+                                            <input type="checkbox" class=" c12 che" id="c12" name="Data Science" value="Data Science">Data Science <br>
+                                            <input type="checkbox" class=" c13 che" id="c13" name="MS-Office" value="MS-Office">MS-Office<br>
+
+                                            <p class="help-block"></p>
+                                        </div>
+                                        <div>
+                                            <button class="btn-primary btn-block" type="submit" id="sendMessageButton" onclick="solution()">Submit</button>
+                                        </div>
+                                        <br>
+                                        <div class="alert">Information Sent</div>
+                                    </form>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="info" data-wow-delay="0.2s" style="color: white;">
+                        <p>
+                            "Our upcoming guest for the session is the author of several books on sales, marketing, and influence, with total book sales approaching two million copies and the founder of The Go-Giver alliance, the great Bob Burg. The American Management Association
+                            has named Bob as one of the 30 Most Influential Leaders. Moreover, he was named as one of the Top 200 Most Influential Authors in the World by Richtopia."
+                            <br>
+                            <br>
+                            <br>
+                            <b>Event Time:</b> 25th July [03:15 PM IST]
+                            <br>
+                            <b>Event Venue:</b>
+                            <a href="https://youtu.be/wKyqFBkxGfI"><i class="fab fa-youtube" style="color: red;"></i></a>
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- Footer Start -->
+    <div class="footer wow fadeIn" data-wow-delay="0.3s">
+        <div class="container-fluid">
+            <div class="container">
+                <div class="footer-info">
+                    <h2>Beta Testers</h2>
+                    <h3>India</h3>
+                    <div class="footer-menu">
+                        <p>+91 7003154707</p>
+                        <p><a href="mailto: contact@betatesters.tech" style="color: white;">contact@betatesters.tech</a></p>
+                    </div>
+                    <div class="footer-social">
+                        <a href="https://www.facebook.com/Βeta-testers-106215631656859/"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.youtube.com/channel/UCyopdatpBjJJxszp6H-HPlw"><i class="fab fa-youtube"></i></a>
+                        <a href="https://instagram.com/b8a_testers?utm_medium=copy_link"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/company/beta-testers"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="container copyright">
+                <p>&copy; <a href="#">Beta Testers</a>, All Right Reserved</p>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to top button -->
+    <a href="#" class="btn back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+
+    <!-- Pre Loader -->
+    <div id="loader" class="show">
+        <div class="loader"></div>
+    </div>
+
+
+
+    <!-- Firebase -->
+    <script src="https://www.gstatic.com/firebasejs/8.7.0/firebase.js"></script>
+    <!-- <script src="https://www.gstatic.com/firebasejs/8.7.0/firebase-analytics.js"></script> -->
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/typed/typed.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Contact Javascript File -->
+    <!-- <script src="mail/jqBootstrapValidation.min.js"></script>
+    <script src="mail/contact.js"></script> -->
+
+    <!-- Javascript -->
+    <script src="js/main.js"></script>
+    <script src="js/register.js"></script>
+
+
+    <!-- extra -->
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+</body>
+
+</html>
