@@ -1,0 +1,116 @@
+.hero {
+    margin-bottom: -50px;
+}
+
+#slideshow {
+    margin: -10px auto;
+    margin-left: 80px;
+    margin-top: -200px;
+    position: relative;
+    width: 440px;
+    height: 340px;
+    padding: 10px;
+    box-shadow: 0px 0 20px rgba(0, 0, 0, 0.4);
+    margin-right: 260px;
+}
+
+#slideshow>div {
+    position: absolute;
+    top: 10px;
+    left: -10px;
+    right: 10px;
+    bottom: 10px;
+}
+
+.slide img {
+    width: 400px;
+    height: 340px;
+}
+
+.form-start {
+    padding-top: 40px;
+    width: 23%;
+    height: 775px;
+    /* background-size: 50px; */
+    /* background-color: #4880ca; */
+}
+
+.register-form input {
+    width: 100%;
+    border-radius: 70px;
+    /* border: none; */
+}
+
+.register-form .che {
+    width: 50px;
+}
+
+.register-form button {
+    width: 50%;
+    height: 30px;
+    border-radius: 40px;
+    border-width: 0px;
+    margin-left: 100px;
+}
+
+.info {
+    font-size: xx-large;
+    font-weight: bolder;
+    width: 90%;
+    padding-left: 140px;
+    padding-bottom: 50px;
+    margin-top: 180px;
+}
+
+.alert {
+    text-align: center;
+    padding: 10px;
+    background: hsl(120, 42%, 63%);
+    color: white;
+    margin-bottom: 10px;
+    display: none;
+}
+
+@media (max-width: 767.98px) {
+    .form-start {
+        padding-top: 40px;
+        padding-left: 135px;
+        width: 90%;
+        height: 500px;
+        background-size: 100px;
+        margin-top: -50px;
+    }
+    .register-form input {
+        width: 100%;
+    }
+    .register-form .che {
+        width: 20px;
+        margin-left: 0px;
+        /* margin-right: 50px; */
+        align-items: initial;
+        text-align: left;
+        align-items: initial;
+    }
+    #slideshow {
+        margin: 40px auto;
+        margin-left: 40px;
+        margin-top: -50px;
+        width: 240px;
+        height: 190px;
+    }
+    .slide img {
+        width: 200px;
+        height: 170px;
+    }
+    .register-form button {
+        margin-left: 55px;
+    }
+    .info {
+        width: 95%;
+        padding: 20px;
+        padding-top: 280px;
+        font-size: large;
+        font-weight: bolder;
+        /* margin-top: -100px; */
+    }
+}

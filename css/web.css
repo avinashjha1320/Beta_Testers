@@ -1,0 +1,56 @@
+/* 
+---------------------------------------------
+About Us Style
+--------------------------------------------- 
+*/
+/* .navbar {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    background:solid;
+}​ */
+
+#about {
+    margin-top: 120px;
+}
+
+.about-us {
+    background-image: url(/services/assets/images/about-bg.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding: 140px 0px 120px 0px;
+}
+
+.about-us .left-image {
+    margin-right: 45px;
+}
+
+.about-us .services1 .item {
+    margin-bottom: 30px;
+}
+
+.about-us .services1 .item .icon {
+    float: left;
+    margin-right: 25px;
+}
+
+.about-us .services1 .item .icon img {
+    max-width: 70px;
+}
+
+.about-us .services1 .item h4 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.about-us .services1 .item p {
+    color: #fff;
+    padding-left: 95px;
+}
+.navbar {
+    padding: 10px 60px;
+    background: rgba(70, 133, 216, 0.95) !important;
+}
